@@ -1,0 +1,104 @@
+.container{
+  max-width: 1278px;
+  margin-left: auto;
+  margin-right: auto;
+/*  display: flex;
+  flex-direction: column; */
+  line-height: 1;
+}
+
+img {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+}
+
+#koszones{
+  color: #222;
+  font-family: 'Abril Fatface', cursive;
+  position: absolute;
+  bottom: 10px;
+  top: 250px;
+  left: 310px;
+  width: 380px;
+  height: 50px;
+  font-size: 40px;
+}
+
+#nev{
+  color: #222;
+  font-family: 'Abril Fatface', cursive;
+  position: absolute;
+  bottom: 10px;
+  top: 290px;
+  left: 310px;
+  height: 50px;
+  font-size: 65px;
+}
+/* font-family: 'Merriweather', serif; */
+
+p{
+  margin-left: 195px;
+  margin-right: 195px;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+li{
+  margin-left: 300px;
+  margin-right: 195px;
+  font-size: 18px;
+  }
+
+.idezet {
+  background: black;
+  color: white;
+  height: 150px;
+  margin-left: 180px;
+  margin-right: 180px;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+blockquote::before{
+  content: '”';
+  font-size: 70px;
+}
+
+.lastpart{
+  border-top: 5px solid black;
+  margin-left: 200px;
+  margin-right: 150px;
+  margin-top: 40px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+h2.simple {
+  margin-top: 40px;
+  margin-left: 192px;
+  margin-right: 192px;
+  font-size: 29px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-left: 195px;
+  margin-right: 195px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h1 {
+  margin-left: 195px;
+  margin-right: 195px;
+  font-size: 32px;
+  font-weight: bold;
+}
